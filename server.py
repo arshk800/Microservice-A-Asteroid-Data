@@ -27,6 +27,14 @@ asteroid_list = []
 asteroid_dict = {'date': start_date}
 near_earth_objects = data.get('near_earth_objects', {}).get(f'{start_date}', [])
 
+asteroid_icons = [
+    "https://www.pngegg.com/en/png-eitrv"
+    "https://www.pngegg.com/en/png-eitrv"
+    "https://www.pngegg.com/en/png-eitrv"
+    "https://www.pngegg.com/en/png-eitrv"
+    "https://www.pngegg.com/en/png-eitrv"
+]
+
 # using list comprehension
 asteroid_dict['asteroids'] = [
     {
