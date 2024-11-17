@@ -12,8 +12,8 @@ This microservice runs on Flask and employs the use of NASA's NEOWs (Near Earth 
       Example: https://api.nasa.gov/neo/rest/v1/feed?start_date=2024-11-03&end_date=2024-11-09&api_key=DEMO_KEY
   
   ## Parameters:
-  start_date (YYYY-MM-DD),                                                                                                                                                                        
-  end_date (YYYY-MM-DD) (optional, defaults to start_date if not entered),                                                                                                                        
+  start_date (YYYY-MM-DD)                                                                                                                                                                        
+  end_date (YYYY-MM-DD) (optional, defaults to start_date if not entered)                                                                                                                        
   port number 
 
   ## Programmatically REQUEST example:
