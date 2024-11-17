@@ -8,7 +8,7 @@ This microservice runs on Flask and employs the use of NASA's NEOWs (Near Earth 
   4.Run the files in seperate terminals
   
 
-  Queries to the server are sent in the form of 'https://api.nasa.gov/neo/rest/v1/feed?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD&api_key=DEMO_KEY'                                                
+  Queries to the API are sent in the form of 'https://api.nasa.gov/neo/rest/v1/feed?start_date=YYYY-MM-DD&end_date=YYYY-MM-DD&api_key=DEMO_KEY'                                                
       Example: https://api.nasa.gov/neo/rest/v1/feed?start_date=2024-11-03&end_date=2024-11-09&api_key=DEMO_KEY
   
   ## Parameters:
