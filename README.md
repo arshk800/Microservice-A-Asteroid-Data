@@ -1,5 +1,5 @@
 ## MICROSERVICE A: Asteroid Data
-This microservice runs on Flask and employs the use of NASA's NEOWs (Near Earth Object Web Service) API. The user inputs a start and end date in the format YYYY-MM-DD and receives a list of all the asteroids, along with its specific data. Each asteroid is linked to a 'cartoon' asteroid icon. 
+This microservice runs on Flask and employs the use of NASA's NEOWs (Near Earth Object Web Service) API. The user inputs a start and end date in the format YYYY-MM-DD and receives a JSON object that lists of all the asteroids, along with its specific data. Each asteroid is linked to a 'cartoon' asteroid icon. 
 
 ## TO RUN THE FILES
   1.Download the server.py and client.py files                                                                                                                                                    
