@@ -23,14 +23,12 @@ def get():
     asteroid_dict = {'date': start_date}
     near_earth_objects = data.get('near_earth_objects', {}).get(f'{start_date}', [])
 
-    asteroid_icons = [
-        "https://www.flaticon.com/free-icon/asteroid_7480279",
-        "https://www.flaticon.com/free-icon/asteroids_8572599",
-        "https://www.flaticon.com/free-icon/asteroid_2530826",
-        "https://www.flaticon.com/free-icon/asteroid_9407479",
-        "https://www.flaticon.com/free-icon/astronomy_16115859",
-        "https://www.flaticon.com/free-icon/asteroid_3601495"
-    ]
+    asteroid_icons = [    "https://cdn-icons-png.flaticon.com/512/7480/7480279.png",    
+                      "https://cdn-icons-png.flaticon.com/512/2530/2530826.png",    
+                      "https://cdn-icons-png.flaticon.com/512/1083/1083545.png",    
+                      "https://cdn-icons-png.flaticon.com/512/433/433853.png",    
+                      "https://static.vecteezy.com/system/resources/previews/029/327/992/non_2x/asteroid-icon-design-free-png.png",    
+                      "https://cdn-icons-png.flaticon.com/512/5821/5821231.png"]
 
     asteroid_dict['asteroids'] = [
         {
