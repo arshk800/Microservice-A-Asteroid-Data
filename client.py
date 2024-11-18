@@ -8,7 +8,6 @@ port = 'http://localhost:8000'
 # request url with query parameters
 url = f"{port}/asteroids?start_date={start_date}&end_date={end_date}"
 
-
 message = requests.get(url)
 
 status_code = message.status_code
