@@ -3,10 +3,11 @@ import json
 
 start_date = input("Enter a start date (YYYY-MM-DD):")
 end_date = input("Enter an end date (YYYY-MM-DD):")
+port = 'http://localhost:8000'
 
-port = 8000
 # request url with query parameters
-url = f"http://localhost:{port}/asteroids?start_date={start_date}&end_date={end_date}"
+url = f"{port}/asteroids?start_date={start_date}&end_date={end_date}"
+
 
 message = requests.get(url)
 
