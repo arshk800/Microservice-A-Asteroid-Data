@@ -4,7 +4,7 @@ This microservice runs on Flask and employs the use of NASA's NEOWs (Near Earth 
 ## TO RUN THE FILES
   1.Download the server.py and client.py files                                                                                                                                                    
   2.Install all the required dependencies (at the top of the files)                                                                                                                               
-  3.Change the port number accordingly                                                                                                                                                            
+  3.Change the port accordingly                                                                                                                                                            
   4.Run the files in seperate terminals
   
 
@@ -16,10 +16,9 @@ This microservice runs on Flask and employs the use of NASA's NEOWs (Near Earth 
   end_date (YYYY-MM-DD) (optional, defaults to start_date if not entered)                                                                                                                        
   port number 
 
-  ## Programmatically REQUEST example:
-
-  Request URL:
-  <img width="556" alt="Screenshot 2024-11-17 at 1 58 51 AM" src="https://github.com/user-attachments/assets/0d9d3cc9-06d3-4282-81d1-22add399a4af">                                                
+  ## REQUEST example:
+  Request URL:                                                                                                                                                    <img width="503" alt="Screenshot 2024-11-17 at 5 02 34 PM" src="https://github.com/user-attachments/assets/72ddaaa0-3a62-4770-9f16-df97f8ee4a53">
+                                             
   Request input:
   <img width="350" alt="Screenshot 2024-11-17 at 2 23 04 AM" src="https://github.com/user-attachments/assets/782eb2a0-a83c-4a12-bf7f-d201f5a24a81">
 
@@ -28,9 +27,10 @@ This microservice runs on Flask and employs the use of NASA's NEOWs (Near Earth 
   <img width="331" alt="Screenshot 2024-11-17 at 2 18 06 AM" src="https://github.com/user-attachments/assets/0e2e9aa3-22b0-4ba5-af6f-01a20636eedc">
 
 
-
   ## RECEIVE example:
-
+  Receiving dates from the client side for the API:
+  <img width="713" alt="Screenshot 2024-11-17 at 5 05 05 PM" src="https://github.com/user-attachments/assets/2c682c27-7a94-4e6a-84c5-71e39aa9ae9f">
+  
    For succesful request:
   <img width="525" alt="Screenshot 2024-11-17 at 1 57 56 AM" src="https://github.com/user-attachments/assets/31c46211-3a2f-40dc-8ab7-f6981f88c618">
 
